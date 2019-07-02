@@ -7,15 +7,26 @@
     <title>Will you need a coat today?</title>
     <link rel="stylesheet" href="./assets/styles.css">
     <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.js"></script>
-    <!-- <link
+    <link
       href="https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css"
       rel="stylesheet"
-    /> -->
+    />
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0/dist/Chart.min.js"></script>
 <body>
-  <div class="container">
-    <h1>Do I need an umbrella?</h1>
-    <h2 id="rainOrNot">Hold on...</h2>
+  <div id="map"></div>
+  <div class="text-container">
+    <div class="umbrella block">
+      <h1>Do I need an umbrella?</h1>
+      <div class="text" id="rain">
+        Hold on...
+      </div>
+    </div>
+    <div class="jacket block">
+      <h1>How about a jacket?</h1>
+      <div class="text" id="jacket">
+        Hold on...
+      </div>
+    </div>
   </div>
     <script src="main.js"></script>
 </body>
