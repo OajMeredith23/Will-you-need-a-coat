@@ -25,7 +25,6 @@ if ('geolocation' in navigator) {
 }
 
 function coat(chanceOfRain, callback) {
-    chanceOfRain = 70
     if (chanceOfRain > 60) {
         var rainOrnot = "Yep"
     } else if (chanceOfRain > 30) {
